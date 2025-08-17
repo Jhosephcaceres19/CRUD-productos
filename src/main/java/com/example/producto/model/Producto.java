@@ -29,8 +29,8 @@ public class Producto {
     private String descripcion;
 
     @Column(nullable = false)
-    private String precio;
+    private double precio;
 
     @Column(nullable = false)
-    private String stock;
+    private Integer stock;
 }
